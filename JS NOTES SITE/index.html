@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS NOTES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>Magic Notes</h1>
+        <div>
+            <input type="text" placeholder="Search Notes">
+            <button onclick="searchNotes()">Search</button>
+            <div class="results">
+                <!-- results -->
+            </div>
+        </div>
+    </nav>
+    <section>
+        <h1>Welcome To Magic Notes</h1>
+        <div class="adder">
+            <div>WANNA ADD A NOTE | Title :&nbsp;
+                <input type="text" id="title" placeholder="Title Please...">
+            </div>
+            <textarea id="note" cols="30" rows="2"></textarea>
+            <button onclick="addNote()">Add Note</button>
+        </div>
+        <h1>Your Notes</h1>
+        <div class="display"> 
+            <!-- notes display -->
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

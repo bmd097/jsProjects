@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(36, 34, 34);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav >h1 {
+  padding-left: 20px;
+  font-size: 30px;
+  color: white;
+}
+nav div {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+nav input {
+  width: 200px;
+  padding: 10px;
+  outline: none;
+  font-size: 20px;
+  border: none;
+  margin-right: 20px;
+}
+nav button {
+  outline: none;
+  border-radius: 3px;
+  width: 80px;
+  transition: all 0.2s ease-in-out;
+  height: 80%;
+  margin-right: 20px;
+  border: white solid 2px;
+  font-size: 22px;
+  background-color: black;
+  color: white;
+}
+nav button:active{
+    transform: scale(0.9);
+}
+nav .results{
+    position: fixed;
+    z-index: 20;
+    border-radius: 5px;
+    background: yellow;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.5s ease-in-out;
+    width: 0;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.results .result-note{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    border: black solid 2px;
+    display: flex;
+    flex-direction: column;
+}
+.result-note h1{
+    width: 100%;
+    height: 20%;
+    color: black;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.result-note p{
+    width: 100%;
+    height: 80%;
+    text-align: center;
+}
+section{
+    width: 1000px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+}
+section .adder{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.adder div{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    color: rgb(20, 20, 20);
+    font-size: 20px;
+}
+.adder div input{
+    width: 200px;
+    padding: 8px;
+    border: none;
+    outline: none;
+}
+.adder textarea{
+    width: 100%;
+    height: 60%;
+    outline: none;
+    border: solid black 2px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 25px;
+}
+.adder button{
+    width: 150px;
+    height: 18%;
+    margin-top: 5px;
+    font-size: 22px;
+    transition: all 0.2s ease-in-out;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right bottom,rgb(0, 132, 255),rgb(0, 153, 255));
+}
+.adder button:active{
+    transform: scale(0.9);
+}
+section h1{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+section .display{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    padding: 10px;
+    overflow: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.display .note-card{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border: solid rgb(80, 76, 76) 2px;
+}
+.note-card h1{
+    width:100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.note-card p{
+    width:100%;
+    height: 55%;
+    text-align: justify;
+    display: inline-block;
+}
+.note-card button{
+    width: 75%;
+    height:25%;
+    font-size: 22px;
+    transition: all 0.2s ease-in-out;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right bottom,rgb(0, 132, 255),rgb(0, 153, 255));
+}
+.note-card button:active{
+    transform: scale(0.9);
+}
