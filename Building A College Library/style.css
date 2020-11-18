@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+form{
+    display: flex;
+    width: 1000px;
+    padding: 15px;
+    flex-direction: column;
+    margin: 0 auto;
+    box-shadow: rgb(224, 224, 224) 0px 0px 50px;
+}
+form >label{
+    font-size: 20px;
+    padding: 4px;
+}
+form >input{
+    outline: none;
+    border: none;
+    padding: 8px;
+    font-size: 22px;
+    background-color: rgb(243, 242, 242);
+    border-radius: 4px;
+}
+form div{
+    padding: 4px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+form div input{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+form button{
+    width: 120px;
+    height: 42px;
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.233) 0px 0px 10px;
+    outline: none;
+    transition:  all 0.2s ease-in-out;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(to  bottom right , rgb(0, 119, 255),rgb(0, 162, 255));
+}
+form button:active{
+    transform:  scale(0.9);
+}
+body>h1{
+    text-align: center;
+    font-size: 25px;
+    padding: 8px;
+}
+table{
+    width: 1000px;
+    height: 220px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: rgb(224, 224, 224) 0px 0px 50px;
+    border-radius: 5px;
+}
+table thead{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    background: linear-gradient(to  bottom right , rgb(0, 119, 255),rgb(0, 162, 255));
+}
+table tbody{
+    overflow: auto;
+    width: 100%;
+    height: 180px;
+}
+table tbody tr td{
+    text-align: center;
+}

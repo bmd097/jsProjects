@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>COLLEGE LIBRARY</nav>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required>
+        <label for="author">Author</label>
+        <input type="text" name="author" id="author" required>
+        <label>Type</label>
+        <div>
+            <input type="radio" name="type" id="cook" value="Cooking" checked> Cooking
+        </div>
+        <div>
+            <input type="radio" name="type" id="prog" value="Programming"> Programming
+        </div>
+        <div>
+            <input type="radio" name="type" id="fric" value="Friction"> Friction
+        </div>
+        <button type="submit">ADD BOOK</button>
+    </form>
+    <h1>YOUR BOOKS</h1>
+    <table>
+        <thead>
+            <tr>
+                <td>NAME</td>
+                <td>AUTHOR</td>
+                <td>TYPE</td>
+            </tr>
+        </thead>
+        <tbody id="tablebody"></tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
