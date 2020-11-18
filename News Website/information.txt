@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 70,
+  "articles": [
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Lisa Respers France, CNN",
+      "title": "Wolfgang Van Halen talks final days with his dad Eddie - CNN",
+      "description": "Wolfgang Van Halen feels blessed to have been able to spend time with his rock legend father Eddie in his final days, even though it was \"really rough.\"",
+      "url": "https://www.cnn.com/2020/11/18/entertainment/wolfgang-eddie-van-halen-final-days/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/201117140953-wolfgang-and-eddie-van-halen-file-2015-super-tease.jpg",
+      "publishedAt": "2020-11-18T13:59:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Theguardian.comartanddesign"
+      },
+      "author": "Olivia Wilson",
+      "title": "'Some of the darkest places in the world': Joaquin Phoenix on a photobook about slaughterhouses - The Guardian",
+      "description": "In Hidden, 40 photographers go inside factory farms and abattoirs to create a global indictment of the meat industry. Warning: contains images you may find upsetting",
+      "url": "https://amp.theguardian.comartanddesign/2020/nov/18/some-of-the-darkest-places-in-the-world-joaquin-phoenix-on-a-photobook-about-slaughterhouses",
+      "urlToImage": "https://i.guim.co.uk/img/media/f6775605765782660d87bdcd621e469739a33f07/262_672_3565_2139/master/3565.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2d74cf914308eac8e9967d903c50434a",
+      "publishedAt": "2020-11-18T13:11:00Z",
+      "content": "Slumped in the darkness of a narrow corridor lies a pig with hopeless eyes. Each strand of hair is defined, and every line, wrinkle and crease on its body seems to express the cruel conditions of its… [+4365 chars]"
+    },
+    {
+      "source": {
+        "id": "cbs-news",
+        "name": "CBS News"
+      },
+      "author": "CBS News",
+      "title": "Michael B. Jordan is People magazine's 2020 Sexist Man Alive - CBS News",
+      "description": "Actor is 35th celeb to get the honor since the magazine started naming them in 1985.",
+      "url": "https://www.cbsnews.com/news/michael-b-jordan-people-magazine-sexist-man-alive-2020/",
+      "urlToImage": "https://cbsnews3.cbsistatic.com/hub/i/r/2019/10/23/ced698d0-f288-4947-94c4-0899a10fdef3/thumbnail/1200x630/d143667813fb6315597875ae8760f209/14-michael.jpg",
+      "publishedAt": "2020-11-18T12:59:00Z",
+      "content": "Los Angeles — Actor Michael B. Jordan has been crowned as 2020's Sexiest Man Alive by People magazine. Jordan, known for his critically-acclaimed performances in \"Fruitvale Station,\" \"Creed\" and \"Bla… [+3120 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "HuffPost"
+      },
+      "author": "Yahoo Entertainment",
+      "title": "'MasterChef Junior' Star Ben Watkins Dies At Age 14 - HuffPost",
+      "description": "\"MasterChef Junior\" judge Gordon Ramsay hailed Watkins as \"an incredibly talented home cook and even stronger young man.\"",
+      "url": "https://www.huffpost.com/entry/ben-watkins-dead_n_5fb508edc5b66cd4ad40820e",
+      "urlToImage": "https://img.huffingtonpost.com/asset/5fb5105e2400008630b047cf.png?ops=1778_1000",
+      "publishedAt": "2020-11-18T11:59:00Z",
+      "content": "Ben Watkins, a fan-favorite from MasterChef Junior, died on Monday after an 18-month battle with cancer. He was 14.\r\nWatkins was diagnosed with angiomatoid fibrous histiocytoma, an extremely rare for… [+2665 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Timothy Bella",
+      "title": "Dolly Parton helped fund Moderna’s vaccine. It began with a car crash and an unlikely friendship. - Washington Post",
+      "description": "“Without a doubt in my mind, her funding made the research toward the vaccine go 10 times faster than it would be without it,” Dr. Naji Abumrad said of his friend.",
+      "url": "https://www.washingtonpost.com/nation/2020/11/18/dolly-parton-moderna-vaccine-abumrad-covid/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EH7PS2BIPQI6XHBBHTCQDUEYD4.jpg&w=1440",
+      "publishedAt": "2020-11-18T10:38:00Z",
+      "content": "Their bond of nearly seven years received worldwide attention Tuesday after it was revealed that Partons $1 million donation to Vanderbilt for coronavirus research, made in honor of Abumrad, partiall… [+4759 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Times"
+      },
+      "author": "Roslyn Sulcas",
+      "title": "Running the Paris Opera Was Never Going to Be Easy. But Come On. - The New York Times",
+      "description": "Alexander Neef has taken on one of the most prestigious jobs in culture amid a pandemic, labor strikes and internal unrest.",
+      "url": "https://www.nytimes.com/2020/11/18/arts/music/paris-opera-alexander-neef.html",
+      "urlToImage": "https://static01.nyt.com/images/2020/11/22/arts/22NEEF-1/22NEEF-1-facebookJumbo.jpg",
+      "publishedAt": "2020-11-18T10:00:00Z",
+      "content": "He was extremely polite and organized, the baritone Thomas Hampson said of Mr. Neef. I remember people saying, Everyone should have a right-hand man like Alexander Neef.\r\nWhen Mr. Mortier left Salzbu… [+1460 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Deadline"
+      },
+      "author": "Nellie Andreeva",
+      "title": "Patrick Dempsey Teases Meredith’s Diagnosis, The Length Of His ‘Grey’s Anatomy’ Return On ‘Ellen’ - Deadline",
+      "description": "Days after his character’s surprise appearance in the Season 17 premiere of Grey’s Anatomy, Patrick Dempsey appeared on The Ellen DeGeneres Show to talk about his return to the ABC medical drama. Derek, who tragically died five and a half years go, came back …",
+      "url": "https://deadline.com/2020/11/patrick-dempsey-how-many-episodes-greys-anatomy-return-meredith-covid-diagnosis-ellen-1234617654/",
+      "urlToImage": "https://deadline.com/wp-content/uploads/2020/11/155966_0006.jpg?w=1024",
+      "publishedAt": "2020-11-18T09:23:00Z",
+      "content": "Days after his character’s surprise appearance in the Season 17 premiere of Grey’s Anatomy, Patrick Dempsey appeared on The Ellen DeGeneres Show to talk about his return to the ABC medical drama.\r\nDe… [+2397 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Chloe Melas",
+      "title": "Harvey Weinstein is being 'closely monitored' with a fever by medical staff in prison, publicist says - CNN",
+      "description": "Harvey Weinstein has a fever and is being monitored by medical staff in prison, his publicist says.",
+      "url": "https://www.cnn.com/2020/11/18/us/harvey-weinstein-fever-prison/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200311101508-01-harvey-weinstein-0224-super-tease.jpg",
+      "publishedAt": "2020-11-18T09:07:00Z",
+      "content": "(CNN)Harvey Weinstein has a fever and is being monitored by medical staff in prison, his publicist says.\r\n\"At this time... we can neither confirm nor deny that Mr. Weinstein has tested positive for C… [+1116 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Holly Ellyatt",
+      "title": "Moderna's coronavirus vaccine maker identifies 'big challenges' to mass production - CNBC",
+      "description": "Manufacturing sites, skilled personnel and temperature control — just some of the challenges facing vaccine makers now.",
+      "url": "https://www.cnbc.com/2020/11/18/what-are-the-big-challenges-to-mass-producing-a-coronavirus-vaccine.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/106798642-1605689754832-gettyimages-1227916352-hennessy-modernac200804_npih7.jpeg?v=1605689910",
+      "publishedAt": "2020-11-18T08:59:00Z",
+      "content": "Moderna's announcement earlier this week that its vaccine was more than 94% effective at preventing the coronavirus, according to preliminary trial data, raised global hopes further that a resolution… [+3335 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Billboard"
+      },
+      "author": "Billboard Staff",
+      "title": "Jimmy Kimmel Unveils 'Sexiest Man Alive' For 2020 - Billboard",
+      "description": "The sexiest man alive? Well, that would be Michael B. Jordan, of course.",
+      "url": "https://www.billboard.com/articles/news/9485890/jimmy-kimmel-unveils-sexiest-man-alive-for-2020/",
+      "urlToImage": "https://static.billboard.com/files/2020/06/jimmy-kimmel-emmys-68-billboard-1548-1592327641-compressed.jpg",
+      "publishedAt": "2020-11-18T08:45:50Z",
+      "content": "The sexiest man alive? Well, that would be Michael B. Jordan, of course.\r\nThe No. 1 heartthrob was presented to the world during Jimmy Kimmel Live on Tuesday night (Nov. 17), with the man of the mome… [+210 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Billboard"
+      },
+      "author": "Paul Grein",
+      "title": "Here Are the 8 Likeliest Grammy Nominees in Each of the Big Four Categories - Billboard",
+      "description": "These categories are fiercely competitive. There were more than a thousand entries in each of the top three categories: album, record and song of the year.",
+      "url": "https://www.billboard.com/articles/news/awards/9485791/8-likeliest-grammy-nominees-each-big-four-categories",
+      "urlToImage": "https://static.billboard.com/files/media/harry-styles-2019-press-billboard-1548-compressed.jpg",
+      "publishedAt": "2020-11-18T08:37:30Z",
+      "content": "Heres our best guess as to what the nominees will be -- the eight top contenders (in alphabetical order, just as they will appear on the list of nominations and, later, the Grammy ballot). We also br… [+9871 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Express"
+      },
+      "author": "Naomi Adedokun",
+      "title": "Queen's big hint that Prince Harry's 'meaningful' royal role could be 'restored' next year - Express",
+      "description": "THE QUEEN's current Megxit deal with the Sussexes could be set for an overhaul in the new year, with one royal commentator indicating Harry would be eager to see one of his royal titles restored.",
+      "url": "https://www.express.co.uk/news/royal/1361299/queen-latest-news-prince-harry-update-duke-of-sussex-military-titles-royal-family-news-vn",
+      "urlToImage": "https://cdn.images.express.co.uk/img/dynamic/106/750x445/1361299.jpg",
+      "publishedAt": "2020-11-18T06:47:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Entertainment Tonight"
+      },
+      "author": "Leena Tailor‍",
+      "title": "George Clooney's Chocolate-Covered 3-Year-Old Son Crashes His 'GQ' Interview - Entertainment Tonight",
+      "description": "The actor conducted an interview with 'GQ' in honor of being named the magazine’s 2020 Icon of the Year.",
+      "url": "https://www.etonline.com/george-clooneys-chocolate-covered-3-year-old-son-crashes-his-gq-interview-156546",
+      "urlToImage": "https://www.etonline.com/sites/default/files/styles/max_1280x720/public/images/2020-06/gettyimages-182616175.jpg?h=c673cd1c&itok=elc9G1zf",
+      "publishedAt": "2020-11-18T05:04:18Z",
+      "content": "In a year during which Zoom meetings and interviews have provided endless surprises and laughs, George Clooney is the latest to draw attention to his home life via video calls. The 59-year-old actor … [+2479 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "YourTango"
+      },
+      "author": "Aria Gmitter",
+      "title": "Horoscope For Today, November 18, 2020 - YourTango",
+      "description": "It's a great day for all zodiac signs to focus on goals and to get things done.",
+      "url": "https://www.yourtango.com/2020338696/horoscope-today-november-18-2020-astrology-zodiac-signs",
+      "urlToImage": "https://www.yourtango.com/sites/default/files/styles/listing_big/public/image_blog/horoscope-today-november-18-2020.jpg?itok=HBh4PifR",
+      "publishedAt": "2020-11-18T05:00:00Z",
+      "content": "Your horoscope for today is here with a daily astrology forecast for each of the zodiac signs on November 18, 2020.\r\nThe Sun is in Scorpio, and the Moon will be in Capricorn.\r\nToday's horoscope encou… [+8552 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Variety"
+      },
+      "author": "Angelique Jackson",
+      "title": "Ryan Phillippe, Kylie Bunbury and Katheryn Winnick on ‘Big Sky’s’ Shocking Series Premiere - Variety",
+      "description": "SPOILER ALERT: Do not read if you have not yet watched the series premiere of ABC’s “Big Sky.” In ABC’s “Big Sky,” the new drama series from creator and executive producer David E. Kelley, Ryan Phillippe is Detective Cody Hoyt, a former police officer turned …",
+      "url": "https://variety.com/2020/tv/news/ryan-phillippe-big-sky-premiere-spoilers-david-e-kelley-kylie-bunbury-katheryn-winnick-1234834110/",
+      "urlToImage": "https://variety.com/wp-content/uploads/2020/11/156024_3up.jpg?w=1000",
+      "publishedAt": "2020-11-18T04:00:00Z",
+      "content": "SPOILER ALERT: Do not read if you have not yet watched the series premiere of ABC’s “Big Sky.”\r\nIn ABC’s “Big Sky,” the new drama series from creator and executive producer David E. Kelley, Ryan Phil… [+8706 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Daily Mail"
+      },
+      "author": "By Carly Johnson For Dailymail.com",
+      "title": "Scott Disick, 37, shows off his latest property development amid new romance with Amelia Hamlin, 19 - Daily Mail",
+      "description": "Scott Disick recently confirmed his budding romance with model Amelia Hamlin, 19.",
+      "url": "https://www.dailymail.co.uk/tvshowbiz/article-8960413/Scott-Disick-37-shows-latest-property-development-amid-new-romance-Amelia-Hamlin-19.html",
+      "urlToImage": "https://i.dailymail.co.uk/1s/2020/11/18/03/35802764-0-image-a-107_1605670399661.jpg",
+      "publishedAt": "2020-11-18T03:56:00Z",
+      "content": "Scott Disick recently confirmed his budding romance with model Amelia Hamlin, 19.\r\nBut the entrepreneur, 37, was 'back to work' on Tuesday as he unveiled the latest property he is developing in the u… [+5434 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Daily Mail"
+      },
+      "author": "By Deirdre Simonds For Dailymail.com",
+      "title": "Matthew McConaughey defends himself after Kate Hudson's jab at their kissing scenes in Fool's Gold - Daily Mail",
+      "description": "Matthew McConaughey responded to his former co-star Kate Hudson's  jab about their on-screen kiss in the 2008 mega-hit Fool's Gold, which was ruined by snot.",
+      "url": "https://www.dailymail.co.uk/tvshowbiz/article-8960189/Matthew-McConaughey-defends-Kate-Hudsons-jab-kissing-scenes-Fools-Gold.html",
+      "urlToImage": "https://i.dailymail.co.uk/1s/2020/11/18/01/35799652-0-image-a-9_1605661660839.jpg",
+      "publishedAt": "2020-11-18T03:49:00Z",
+      "content": "Matthew McConaughey responded to his former co-star Kate Hudson's jab about their on-screen kiss in the 2008 mega-hit Fool's Gold, which was ruined by snot.\r\nAfter the 41-year-old actress opened abou… [+3511 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Variety"
+      },
+      "author": "Ellise Shafer",
+      "title": "Bruce Swedien, Grammy-Winning Audio Engineer of ‘Thriller,’ Dies at 86 - Variety",
+      "description": "Bruce Swedien, a five-time Grammy-winning audio engineer best known for his work on several Michael Jackson albums, died on Monday night. He was 86. Swedien’s daughter, musician Roberta Swedien, shared the news via Facebook, writing: “My dad, Bruce Swedien, p…",
+      "url": "https://variety.com/2020/music/news/bruce-swedien-dead-dies-thriller-grammy-winning-audio-engineer-1234834334/",
+      "urlToImage": "https://variety.com/wp-content/uploads/2020/11/bruce-swedien.jpg?w=1000",
+      "publishedAt": "2020-11-18T03:40:00Z",
+      "content": "Bruce Swedien, a five-time Grammy-winning audio engineer best known for his work on several Michael Jackson albums, died on Monday night. He was 86.\r\nSwedien’s daughter, musician Roberta Swedien, sha… [+2092 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Daily Mail"
+      },
+      "author": "By Ariel Zilber Andrew Court Aidan Wondracz For Daily Mail Australia",
+      "title": "Hillsong pastor Carl Lentz was 'womanizing manwhore' during Jennifer Lopez's Super Bowl after-party - Daily Mail",
+      "description": "Carl Lentz, 42, was said to have been flirting with several women on a yacht in Miami during a post-Super Bowl party hosted by Jennifer Lopez last year, it has been reported.",
+      "url": "https://www.dailymail.co.uk/news/article-8960479/Hillsong-pastor-Carl-Lentz-womanizing-manwhore-Jennifer-Lopezs-Super-Bowl-party.html",
+      "urlToImage": "https://i.dailymail.co.uk/1s/2020/11/18/03/35802078-0-image-a-4_1605669469622.jpg",
+      "publishedAt": "2020-11-18T03:38:00Z",
+      "content": "The celebrity pastor who was fired from the Hillsong megachurch after it was revealed he was having an affair was reportedly spotted being a womanizing manwhore at Jennifer Lopezs post-Super Bowl par… [+11036 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Taste of Country"
+      },
+      "author": "Sterling Whitaker",
+      "title": "Country Trio Triumph With Tanya Tucker Classic on 'The Voice' - Taste of Country",
+      "description": "Blake Shelton has to decide between two of his favorite country acts on 'The Voice' on Tuesday night (Nov. 17), leading to a moment with a very surprising ending.",
+      "url": "https://tasteofcountry.com/the-voice-knockout-round-worth-the-wait-ben-allen/",
+      "urlToImage": "https://townsquare.media/site/204/files/2020/11/worth-the-wait-ben-allen-knockout-round-the-voice.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89",
+      "publishedAt": "2020-11-18T03:07:35Z",
+      "content": "The Voice Season 19 knockout rounds came down to a battle between two of Blake Shelton's favorite artists on Tuesday night (Nov. 17), leading to a moment with a very surprising ending.\r\nShelton pitte… [+2035 chars]"
+    }
+  ]
+}
