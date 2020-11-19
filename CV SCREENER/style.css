@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+div{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 950px;
+    height: 550px;
+    background: url(https://images.unsplash.com/photo-1506770797561-3b22048d1a13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1892&q=80)
+                center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(134, 134, 134, 0.561) 0px 0px 100px;
+}
+div h1{
+    width: 80%;
+    padding: 10px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+div p{
+    width: 80%;
+    padding: 7px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+div button{
+    width: 120px;
+    height: 50px;
+    margin: 15px;
+    font-family: monospace;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.178) 0px 0px 100px;
+    outline: none;
+    border: none;
+    color: black;
+    display: none;
+    background: linear-gradient(to bottom right,rgb(245, 245, 245),rgb(226, 226, 226));
+}
+div button:active{
+    transform: scale(0.9);
+}
