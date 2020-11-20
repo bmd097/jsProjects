@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FETCH SIMULATOR 2020</title>
+    <link rel="shortcut icon" href="fetch_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="prism.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div>
+        <img src="fetch_logo.png" />
+        <p>MAKE FAKE REQUESTS</p>
+      </div>
+      <main>
+        <div class="line">
+          <label for="url">URL</label>
+          <input type="url" id="url" placeholder="Enter URL here" />
+        </div>
+        <div class="line">
+          <label>Request Type</label>
+          <div class="lines">
+            <div class="line list">
+              <input type="radio" name="request" id="request" checked 
+              value="GET"/>
+              <p>GET</p>
+            </div>
+            <div class="line list">
+              <input type="radio" name="request" id="request" 
+              value="POST"/>
+              <p>POST</p>
+            </div>
+          </div>
+        </div>
+        <div class="line">
+          <label>Content Type</label>
+          <div class="lines">
+            <div class="line list">
+              <input type="radio" name="type" id="type" checked 
+              value="JSON"/>
+              <p>JSON</p>
+            </div>
+            <div class="line list">
+              <input type="radio" name="type" id="type" 
+              value="params"/>
+              <p>Custom Parameters</p>
+            </div>
+          </div>
+        </div>
+        <div class="line">
+          <label for="request">Enter Request Json</label>
+          <textarea id="request-json" cols="30" rows="5"></textarea>
+          <div id="requests-params">
+            <div>
+                <input type="text" placeholder="Key">
+                <input type="text" placeholder="Value">
+                <button id="request-param-adder">+</button> 
+            </div>
+        </div>
+        </div>
+        <button id="submit">Submit</button>
+        <div class="line">
+          <label for="response">Response</label>
+          <!-- <textarea id="response" cols="30" rows="5"></textarea> -->
+          <code class="language-javascript" id="response">Search for something...</code>
+        </div>
+    </main>
+    </section>
+    <script src="prism.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
