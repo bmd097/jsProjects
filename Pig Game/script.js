@@ -25,6 +25,7 @@ function newGame(){
     currScore=0;
     player1.children[2].innerText=currScore;
     player2.children[2].innerText=currScore;
+    check=true;
 }
 
 document.querySelector('.btn-roll').addEventListener('click',()=>{
