@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    transition: all ease-in-out 0.5s;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 248, 238);
+}
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    height: 100%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+nav img:hover{
+    animation: cycle ease-in-out 1s infinite alternate-reverse;
+}
+@keyframes cycle{
+    50%{
+        transform: rotate(20deg);
+    }
+    0%{
+        transform: rotate(-20deg);
+    }
+}
+nav form{
+    margin-right: 25px;
+}
+nav form input{
+    font-size: 15px;
+    padding: 8px 10px;
+    width: 150px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: sans-serif;
+    margin-left: 8px;
+    transition: all 0.1s ease-in-out;
+    margin-right: 8px;
+}
+nav form input:focus{
+    border: solid rgb(54, 54, 54) 2px;
+}
+nav form button{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    text-shadow: rgb(156, 156, 156) 0px 0px 2px;
+    outline: none;
+    border: none;
+    transition: all 0.2s ease-in-out;
+    background: linear-gradient(to right bottom, rgb(10, 218, 10) ,rgb(0, 230, 0));
+}
+nav form button:active{
+    transform: scale(0.9);
+}
+body>div{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body > div >img{
+    width: 900px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.192) 0px 0px 20px;
+}
+main{
+    width: 1200px;
+    height: 640px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: chartreuse; */
+}
+.info .balance{
+    width: 40%;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info .balance p:nth-of-type(1){
+    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    margin-left: 15px;
+}
+.info .balance p:nth-of-type(2){
+    font-family: monospace;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: rgb(104, 104, 104);
+    margin-left: 15px;
+}
+.info > p{
+    margin-right: 15px;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
+    color: rgb(49, 49, 49);
+}
+.display{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.display .transactions{
+    width: 58.4%;
+    box-shadow: rgba(0, 0, 0, 0.13) 0px 0px 5px;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 100%;
+    overflow-y: auto;
+    background: white;
+}
+.transactions .tranCard{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid rgb(194, 194, 194) 1px;
+}
+.withdraw{
+    padding: 8px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(to right bottom,rgb(255, 69, 69),red);
+}
+.deposited{
+    padding: 8px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(to right bottom,rgb(6, 206, 6),green);
+}
+.tranCard div{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.tranCard div p:nth-of-type(1){
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: sans-serif;
+}
+.tranCard div p:nth-of-type(2){
+    font-size: 15px;
+    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
+    color: rgb(80, 80, 80);
+}
+.tranCard p{
+    font-size: 20px;
+    font-family: monospace;
+    font-family: 'Lato', sans-serif;
+    margin-right: 20px;
+}
+.display .operations{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.operations>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.operations .transfer{
+    width: 100%;
+    height: 30%;
+    box-shadow: rgba(0, 0, 0, 0.13) 0px 0px 5px;
+    border-radius: 13px;
+    background: linear-gradient(to top left, #ffb003, #ffcb03);
+}
+.transfer>p{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
+    margin-left: 25px;
+}
+.transfer>div{
+    margin-top: 8px;
+    margin-left: 25px;
+    display: flex;
+}
+.transfer>div>button{
+    border: none;
+    outline: none;
+    height: 30px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    transition: all ease-in-out 0.15s;
+    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+.transfer>div>button:active{
+    transform: scale(0.9);
+}
+.operations .loan{
+    width: 100%;
+    height: 30%;
+    box-shadow: rgba(0, 0, 0, 0.13) 0px 0px 5px;
+    border-radius: 13px;
+    background: linear-gradient(to top left, #39b385, #9be15d);
+}
+.loan>p{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
+    margin-left: 25px;
+}
+.loan>div{
+    margin-top: 8px;
+    margin-left: 25px;
+    display: flex;
+}
+.loan>div>button{
+    border: none;
+    outline: none;
+    height: 30px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    transition: all ease-in-out 0.15s;
+    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+.loan>div>button:active{
+    transform: scale(0.9);
+}
+.operations .close{
+    width: 100%;
+    height: 30%;
+    box-shadow: rgba(0, 0, 0, 0.13) 0px 0px 5px;
+    border-radius: 13px;
+    background: linear-gradient(to top left, #e52a5a, #ff585f);
+}
+.close>p{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
+    margin-left: 25px;
+}
+.close>div {
+    margin-top: 8px;
+    margin-left: 25px;
+    display: flex;
+}
+.close>div>button{
+    border: none;
+    outline: none;
+    height: 30px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    transition: all ease-in-out 0.15s;
+    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+.close>div>button:active{
+    transform: scale(0.9);
+}
+.queryField{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    align-items: center;
+}
+.queryField p{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
+    color: rgb(70, 70, 70);
+    margin-top: 3px;
+}
+.queryField input{
+    border:none;
+    outline: none;
+    padding: 8px;
+    transition: all ease-in-out 0.2s;
+    background: rgba(255, 255, 255, 0.527);
+    font-family: monospace;
+    font-family: 'Open Sans', sans-serif;
+    width: 120px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+.queryField input:focus{
+    background: rgba(255, 255, 255, 0.829);
+}
+.status{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.status .status-update{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.status p{
+    margin-right: 15px;
+    font-family: sans-serif;
+    font-size: 15px;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+}
+.status p span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.status-update span:nth-of-type(1){
+    color: green;
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+}
+.status-update span:nth-of-type(2){
+    color: red;
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+}
+.status-update span:nth-of-type(3){
+    color: green;
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+}

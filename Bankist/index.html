@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bankist</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <img src="images/logo.png" alt="bank logo">
+        <form>
+            <input type="text" name="name" id="name" placeholder="USER">
+            <input type="password" name="pin" id="pin" placeholder="PIN">
+            <button type="submit">GO</button>
+        </form>
+    </nav>
+    <div>
+        <img src="images/bg.jpg" alt="bg">
+    </div>
+    <main>
+        <!-- // current date and current balance -->
+        <div class="info">
+            <div class="balance">
+                <p>Current Balance</p>
+                <p id="currDate">25/25/2222</p>
+            </div>
+            <p>$545454</p>
+        </div>
+        <div class="display">
+            <div class="transactions">
+                <!-- // transactions display -->
+            </div>
+            <div class="operations">
+                <!-- // user can send/transfer money -->
+                <div class="transfer">
+                    <p>Transfer money</p>
+                    <div>
+                        <div class="queryField">
+                            <input type="text" id="transferUser">
+                            <p>Transfer To</p>
+                        </div>
+                        <div class="queryField">
+                            <input type="number" id="transferAmount">
+                            <p>Amount</p>
+                        </div>
+                        <button>Transfer</button>
+                    </div>
+                </div>
+                <!-- // user can request a loan -->
+                <div class="loan">
+                    <p>Request loan</p>
+                    <div>
+                        <div class="queryField">
+                            <input type="number">
+                            <p>Amount</p>
+                        </div>
+                        <button>Request</button>
+                    </div>
+                </div>
+                <!-- // user can log out when he want -->
+                <div class="close">
+                    <p>Close account</p>
+                    <div>
+                        <div class="queryField">
+                            <input type="text" id="userId">
+                            <p>Confirm USER</p>
+                        </div>
+                        <div class="queryField">
+                            <input type="password" id="pinClose">
+                            <p>Confirm PIN</p>
+                        </div>
+                        <button>Exit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- // Displays a brief information about till date in and out and interest .... -->
+        <div class="status">
+            <div class="status-update">
+                IN&nbsp;<span id="in">27 035,20 $</span>&nbsp; OUT&nbsp; <span id="out">1082,61 $</span>&nbsp; INTEREST&nbsp; <span id="interest">323,46 $</span>
+            </div>
+            <p>You will be logged out in &nbsp;<span>00:54</span></p>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
