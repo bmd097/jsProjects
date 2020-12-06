@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cook-Book</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+      <div class="nav">
+        <div class="logo">
+          <img src="assets/logo.png" alt="logo_img" />
+          <p>Cook-Book</p>
+        </div>
+        <div class="search-box">
+          <input
+            type="text"
+            id="search-text"
+            placeholder="Search over 1,000,000 recipes..."
+          />
+          <button onclick="searchInput()">
+            <i class="fa fa-search" aria-hidden="true"></i> Search
+          </button>
+        </div>
+        <div class="navlinks">
+          <button>
+            <i class="fa fa-pencil-square-o" aria-hidden="true"></i> ADD RECIPE
+          </button>
+          <button id="savedBtn">
+            <i class="fa fa-bookmark" aria-hidden="true"></i> SAVED
+          </button>
+        </div>
+      </div>
+      <div class="container">
+        <aside>
+          <div class="search-list"></div>
+          <p>Designed & Built by BMD 2020</p>
+        </aside>
+        <div class="display">
+          <p>Search for Something .... :)</p>
+          <div id="display-content"></div>
+        </div>
+      </div>
+      <div class="saved-items">
+      </div>
+    </main>
+    <section id="add_recipe">
+        <div class="add_recipe">
+            <p><i class="fa fa-times" aria-hidden="true"></i></p>
+            <div>
+                <label for="recipe_name">Recipe</label>
+                <input type="text" name="recipe_name" id="">
+            </div>
+            <div>
+                <label for="chef_name">Chef</label>
+                <input type="text" name="chef_name" id="">
+            </div>
+            <label for="recipe_ingrediants">Ingrediants (Separated by | ) Please write in this manner :)</label>
+            <textarea name="recipe_ingrediants" id="" cols="30" rows="5"></textarea>
+            <button>ADD NEW ONE</button>
+        </div>
+    </section>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
